@@ -25,23 +25,19 @@ p {
 main {
     padding: 20px;
     text-align: center;
+    display:flex;
+
 }
 
 .link-list {
     list-style-type: none;
     padding: 0;
-    display:flex
-}
-
-.link-list li {
-    margin: 15px 0;
 }
 
 .link-list a {
     text-decoration: none;
     color: #2575fc;
     font-size: 1.5em;
-    padding: 10px 20px;
     border: 2px solid #2575fc;
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s;
