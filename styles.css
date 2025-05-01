@@ -29,10 +29,6 @@ main {
 
 }
 
-.link-list {
-    list-style-type: none;
-    padding: 0;
-}
 
 .link-list a {
     text-decoration: none;
