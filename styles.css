@@ -25,21 +25,16 @@ p {
 main {
     padding: 20px;
     text-align: center;
-    display:grid;
+    display:grid-auto-flow; 
 
 }
 
-
-.link-list a {
-    text-decoration: none;
-    color: #2575fc;
-    font-size: 1.5em;
-    border: 2px solid #2575fc;
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
+l1 {
+     
 }
 
-.link-list a:hover {
+
+a:hover {
     background-color: #2575fc;
     color: white;
 }
